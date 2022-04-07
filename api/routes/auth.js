@@ -13,7 +13,6 @@ router.post('/register', async (req, res) => {
       email: req.body.email,
       password: hashedPass
     })
-
     const user = await newUser.save()
     res.status(200).json(user)
 
@@ -26,7 +25,6 @@ router.post('/register', async (req, res) => {
 //LOGIN
 router.post('/login', async (req, res) => {
   try {
-
     const user = await User.findOne({ username: req.body.username })
     !user && res.status(400).json('wrong credintials!')
     const validated = await bcrypt.compare(req.body.password, user.password)
