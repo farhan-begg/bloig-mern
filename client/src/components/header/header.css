@@ -6,7 +6,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #444;
+  font-family: "Graffiti font", sans-serif;
+  font-weight: 800;
+  color: rgb(146, 146, 146);
 }
 
 .headerTitleSm {
@@ -24,6 +26,6 @@
 .headerImg {
   width: 100%;
   height: 450px;
-  object-fit: cover;
   margin-top: 80px;
+  object-fit: cover;
 }

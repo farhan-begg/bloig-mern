@@ -15,7 +15,8 @@
 
 .settingsUpdateTitle {
   font-size: 30px;
-  color: rgb(4, 88, 162);
+  margin-bottom: 20px;
+  color: lightcoral;
 }
 
 .settingsDeleteTitle {
@@ -46,13 +47,13 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: lightblue;
+  background-color: lightcoral;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .settingsForm > label {
@@ -61,21 +62,21 @@
 }
 
 .settingsForm > input {
-  color: grey;
+  color: gray;
   margin: 10px 0;
   height: 30px;
   border: none;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
 }
 
-.settingSubmit {
-  width: 150px;
-  align-self: center;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  background-color: teal;
-  padding: 10px;
-  margin-top: 20px;
-  cursor: pointer;
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
 }

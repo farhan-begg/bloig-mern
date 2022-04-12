@@ -2,13 +2,13 @@
   height: calc(100vh - 50px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.3)
+      rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.hdqwalls.com/download/anime-goku-4k-5a-1920x1080.jpg");
+    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-size: cover;
 }
 
@@ -40,6 +40,11 @@
   color: white;
   border-radius: 10px;
   padding: 10px;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
 }
 
 .loginRegisterButton {
